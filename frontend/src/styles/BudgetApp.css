@@ -1,0 +1,8 @@
+.Budget-App {
+  display: flex;
+  flex-direction: column; /* Change to column */
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  margin-top: 60px;
+  }

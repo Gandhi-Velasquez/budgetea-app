@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #212121;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 25px;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 15px;
+    margin-right: 60px;
+  }
+  
+  .navbar-buttons button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #212121;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .navbar-title-link {
+    text-decoration: none;
+    color: inherit; 
+  }
