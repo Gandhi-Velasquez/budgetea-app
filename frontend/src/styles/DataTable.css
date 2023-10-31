@@ -1,12 +1,12 @@
 .card-table {
     border-radius: 10px;
     background-color: #f9f9f9;
-    padding: 0; /* Adjust the values as needed */
+    padding: 0;
     margin: 20px 10px;
     width: 70%;
     overflow: auto;
     max-height: 360px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a floating effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   
@@ -33,19 +33,18 @@
   .card-table tbody tr {
     background-color: white;
     border-radius: 15px;
-    border-bottom: 1px solid #ddd; /* Add a gray line at the bottom */
+    border-bottom: 1px solid #ddd;
     margin-bottom: 40px;
-    padding: 10px 0; /* Add padding to the top and bottom */
+    padding: 10px 0; 
   }
   
   .card-table tbody tr td {
-    padding: 20px; /* Adjust the padding as needed */
+    padding: 20px; 
   }
 
-/* Add the following styles to your existing CSS */
   .empty-message {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Set the height to 100% to fill the entire container */
+    height: 100%; 
   }

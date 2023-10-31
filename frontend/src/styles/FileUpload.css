@@ -5,15 +5,14 @@
     margin-top: 24px;
     padding: 20px 0px;
     text-align: center;
-    width: 70%; /* Change width to 70% */
-    height: 60px; /* Change height to 60px */
+    width: 70%; 
+    height: 60px; 
     display: flex;
     flex-direction: row;
-    justify-content: space-around; /* Arrange children in a row with space between */
+    justify-content: space-around;
     align-items: center;
   }
   
-  /* Style the file input and button */
   .file-input {
     display: none;
   }
@@ -31,7 +30,6 @@
     background-color: #313131;
   }
   
-  /* Style the hidden file input */
   .file-input[type="file"] {
     display: none;
   }
@@ -48,7 +46,6 @@
     background-color: #313131;
   }
   
-  /* Style the file info box */
   .file-info-box {
     margin: 10px;
     padding: 10px;

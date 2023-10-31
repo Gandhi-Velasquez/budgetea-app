@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
@@ -13,8 +12,6 @@ const Navbar = () => {
       <Link to="/app">
         <button>Dashboard</button>
       </Link>
-        {/* <button>Sign In</button>
-        <button>Sign Up</button> */}
       </div>
     </div>
   );

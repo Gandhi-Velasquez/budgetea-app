@@ -1,4 +1,3 @@
-// src/components/FinancialSummary.js
 import React from 'react';
 import '../styles/FinancialSummary.css';
 
